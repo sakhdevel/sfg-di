@@ -1,12 +1,12 @@
-#spring.profiles.active=de
-#
-#guru.username=John
-#guru.password=somepass
-#guru.dburl=my_server
-#
-
 guru:
   jms:
     username: JMS Username
     password: somepass
     url: SomeUrl
+
+---
+spring:
+  profiles: de
+guru:
+  jms:
+    username: JMS Username $$$$$ German
